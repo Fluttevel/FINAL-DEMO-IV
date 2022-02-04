@@ -88,9 +88,9 @@ def random_movie_value():
     text_value = f"{hbold(file['nameRu'][random_value])} " \
                  f"{hbold('(')}{hbold(file['year'][random_value])}{hbold(')')}" \
                  f"{hbold(movie_type)}\n\n" \
-                 f"\U0001F31F{hcode(' -------:')}   {hbold(file['ratingKinopoisk'][random_value])}\n" \
-                 f"\U0001F440{hcode(' ======:')}     {hbold(rating_kinopoisk_vote_count)}{hbold('K')}\n" \
-                 f"\U0000231B{hcode(' _____:')}       {hbold(film_length)}" \
+                 f"\U0001F31F{hcode(' Рейтинг:')}   {hbold(file['ratingKinopoisk'][random_value])}\n" \
+                 f"\U0001F440{hcode(' Оценки:')}     {hbold(rating_kinopoisk_vote_count)}{hbold('K')}\n" \
+                 f"\U0000231B{hcode(' Время:')}       {hbold(film_length)}" \
                  f"{description}"
 
     # Name with year in one string for search trailers.
