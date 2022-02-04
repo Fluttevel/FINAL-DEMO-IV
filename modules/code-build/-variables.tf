@@ -51,5 +51,5 @@ variable "git_event" {
 
 variable "repository_url" {
   description = "GitHub repository url"
-  default = "https://github.com/DmitryKorzhIT/crisp_cinema_bot_with_devops.git"
+  default = "https://github.com/Fluttevel/FINAL-DEMO-IV.git"
 }
